@@ -4,12 +4,6 @@ import { Link } from "react-router-dom";
 import scrollToElem from "../../scrollToElem";
 import clean from "../../cleanUpText";
 
-// const MenuLinks = () => (
-//   <div>
-//     <Link />
-//   </div>
-// );
-
 export default class MenuLinks extends React.Component {
   handleScroll = (e) => {
     const idRaw = e.target.textContent;

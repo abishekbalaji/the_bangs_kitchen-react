@@ -4,6 +4,7 @@ import MenuGroup from "./MenuGroup";
 
 const Menu = () => (
   <div id="menu">
+    <h1>Menu</h1>
     <MenuGroup
       groupName="Shawarma"
       items={[
