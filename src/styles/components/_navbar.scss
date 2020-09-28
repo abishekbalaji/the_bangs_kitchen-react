@@ -1,22 +1,29 @@
-.navbar {
+.navbar-visible {
   // padding: $s-size 0;
+  transform-origin: right;
+  transition: 0.5s;
+  transform: translateX(0);
   display: flex;
   position: absolute;
   top: 0;
-  left: 0;
+  right: 0;
   flex-direction: column;
   // align-items: flex-end;
   width: 70%;
-  height: 100vh;
+  // height: 100vh;
   background-color: $ivory;
   z-index: 200;
   // margin-left: auto;
-  display: none;
+  // display: none;
 }
 
 .nav__item {
   margin: $m-size;
   color: $lavender-dark;
+}
+
+.brand-logo-web {
+  display: none;
 }
 
 .navbar__close-btn {
@@ -28,4 +35,35 @@
   color: $lavender-dark;
   padding: 1rem $m-size;
   border-radius: 9%;
+  margin-left: auto;
+}
+
+.navbar-invisible {
+  @extend .navbar-visible;
+  visibility: hidden;
+  transition: 0.5s;
+  transform: translateX(2000px);
+}
+
+@media (min-width: $mobile-landscape-breakpoint) {
+  .navbar {
+    width: 85%;
+    padding: 0 $s-size;
+    visibility: visible;
+    display: flex;
+    flex-direction: row;
+    transition: 0s;
+    transform: translateX(0);
+    background-color: $lavender;
+  }
+  .navbar__close-btn {
+    display: none;
+  }
+  .brand-logo-web {
+    display: inline-block;
+    margin: $m-size;
+  }
+  .nav__item {
+    align-self: center;
+  }
 }

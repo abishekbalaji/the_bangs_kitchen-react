@@ -1,10 +1,13 @@
 html {
   font-size: 62.5%;
+  overflow-x: hidden;
 }
 
 body {
   font-family: Helvetica, Arial, sans-serif;
   font-size: $m-size;
+  position:relative;
+  overflow-x: hidden;
 }
 
 button {
@@ -29,3 +32,25 @@ a {
   z-index: 100;
   display: none;
 }
+
+.scrollToTopBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  /* padding: 15px; */
+  border-radius: 50%;
+  padding: 10px 15px;
+}
+
+.scrollToTopBtn:hover {
+  background-color: #555;
+}
+

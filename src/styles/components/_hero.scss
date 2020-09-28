@@ -25,13 +25,34 @@
   height: auto;
 }
 
+.brand {
+  display: flex;
+  justify-content: space-between;
+}
+
+.brand-logo {
+  margin: $m-size;
+}
+
 .hamburger-icon {
   width: fit-content;
+  height: fit-content;
   border: none;
   border-radius: 5%;
   background-color: $ivory;
   margin: $m-size;
   font-size: $l-size;
+  // margin-left: auto;
+  align-self: center;
+}
+
+@media (min-width: $mobile-landscape-breakpoint) {
+  .hamburger-icon {
+    display: none;
+  }
+  .brand-logo {
+    display: none;
+  }
 }
 
 

@@ -16,12 +16,13 @@ export default class NavBar extends React.Component {
     scrollToElem(elem);
   };
   handleNavClose = () => {
-    document.getElementById("nav").style.display = "none";
+    document.getElementById("nav").classList.remove("navbar-visible");
+    document.getElementById("nav").classList.add("navbar-invisible");
     document.getElementById("back-drop").style.display = "none";
   };
   render() {
     return (
-      <div id="nav" className="navbar">
+      <div id="nav" className="navbar-invisible navbar">
         <button
           id="nav__exit-btn"
           className="navbar__close-btn"
@@ -29,6 +30,12 @@ export default class NavBar extends React.Component {
         >
           X
         </button>
+        <img
+          className="brand-logo-web"
+          src="/images/logo.png"
+          width="45"
+          height="45"
+        />
         <NavLink to="/" exact={true} className="nav__item">
           Home
         </NavLink>
