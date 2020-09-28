@@ -1,12 +1,14 @@
 import React from "react";
 
 const Location = () => (
-  <div>
-    <h1>Location</h1>
-    <p>The Bangs Kitchen</p>
-    <p>Street Name</p>
-    <p>Place Name</p>
-    <p>City name and pincode</p>
+  <div className="footer__location">
+    <h1 className="footer__location__title">Location</h1>
+    <div className="footer__loction__content__container">
+      <p className="footer__location__content">The Bangs Kitchen</p>
+      <p className="footer__location__content">Street Name</p>
+      <p className="footer__location__content">Place Name</p>
+      <p className="footer__location__content">City name and pincode</p>
+    </div>
   </div>
 );
 

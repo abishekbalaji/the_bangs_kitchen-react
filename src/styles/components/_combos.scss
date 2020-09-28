@@ -1,0 +1,32 @@
+.combos-div {
+  padding: $m-size;
+  background-color: $ivory-shade;
+}
+
+.combos__title {
+  font-size: 2.2rem;
+  color: $ivory-shade-dark;
+}
+
+.combos__container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.combo {
+  width: 45%;
+  border: 0.001px solid $ivory-shade-dark;
+  border-radius: 3%;
+  margin-left: 0.3rem;
+  margin-bottom: 0.3rem;
+  color: $ivory-shade-dark;
+}
+
+.combo__type {
+  font-size: 1.8rem;
+}
+
+.combo__item {
+  font-size: $s-size;
+}

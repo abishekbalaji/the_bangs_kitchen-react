@@ -1,0 +1,31 @@
+.navbar {
+  // padding: $s-size 0;
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  flex-direction: column;
+  // align-items: flex-end;
+  width: 70%;
+  height: 100vh;
+  background-color: $ivory;
+  z-index: 200;
+  // margin-left: auto;
+  display: none;
+}
+
+.nav__item {
+  margin: $m-size;
+  color: $lavender-dark;
+}
+
+.navbar__close-btn {
+  // border: none;
+  width: fit-content;
+  border: none;
+  margin: $m-size;
+  background-color: $lavender;
+  color: $lavender-dark;
+  padding: 1rem $m-size;
+  border-radius: 9%;
+}
