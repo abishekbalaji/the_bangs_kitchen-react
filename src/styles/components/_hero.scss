@@ -46,7 +46,7 @@
   align-self: center;
 }
 
-@media (min-width: $mobile-landscape-breakpoint) {
+@media (min-width: 676px) {
   .hamburger-icon {
     display: none;
   }

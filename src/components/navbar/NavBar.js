@@ -30,31 +30,33 @@ export default class NavBar extends React.Component {
         >
           X
         </button>
-        <img
-          className="brand-logo-web"
-          src="/images/logo.png"
-          width="45"
-          height="45"
-        />
-        <NavLink to="/" exact={true} className="nav__item">
-          Home
-        </NavLink>
-        <NavLink to="/" onClick={this.handleScroll} className="nav__item">
-          Menu
-        </NavLink>
-        <NavLink to="/" onClick={this.handleScroll} className="nav__item">
-          Combos
-        </NavLink>
-        <NavLink to="/about" className="nav__item">
-          About
-        </NavLink>
-        <NavLink
-          to="/"
-          onClick={this.handleScrollContact}
-          className="nav__item"
-        >
-          Contact Us
-        </NavLink>
+        <div className="navbar__container__desk">
+          <img
+            className="brand-logo-web"
+            src="/images/logo.png"
+            width="45"
+            height="45"
+          />
+          <NavLink to="/" exact={true} className="nav__item">
+            Home
+          </NavLink>
+          <NavLink to="/" onClick={this.handleScroll} className="nav__item">
+            Menu
+          </NavLink>
+          <NavLink to="/" onClick={this.handleScroll} className="nav__item">
+            Combos
+          </NavLink>
+          <NavLink to="/about" className="nav__item">
+            About
+          </NavLink>
+          <NavLink
+            to="/"
+            onClick={this.handleScrollContact}
+            className="nav__item"
+          >
+            Contact Us
+          </NavLink>
+        </div>
       </div>
     );
   }

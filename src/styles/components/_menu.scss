@@ -1,6 +1,14 @@
 .menu-div {
-  padding: $m-size;
   background-color: $ivory;
+}
+
+// .menu__container {
+//   max-width: 
+// }
+
+.menu-group__hero {
+  display: flex;
+  justify-content: space-between;
 }
 
 .menu__main-title {
@@ -38,6 +46,7 @@
 }
 
 .menu__item__price {
+  
   font-size: 1.2rem;
   color: $ivory-shade-dark;
 }

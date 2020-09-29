@@ -17,6 +17,11 @@
   // display: none;
 }
 
+.navbar__container__desk {
+  display: flex;
+  flex-direction: column;
+}
+
 .nav__item {
   margin: $m-size;
   color: $lavender-dark;
@@ -45,16 +50,25 @@
   transform: translateX(2000px);
 }
 
-@media (min-width: $mobile-landscape-breakpoint) {
+@media (min-width: 676px) {
   .navbar {
-    width: 85%;
-    padding: 0 $s-size;
+    width: 100%;
     visibility: visible;
-    display: flex;
-    flex-direction: row;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+
     transition: 0s;
     transform: translateX(0);
     background-color: $lavender;
+  }
+  .navbar__container__desk {
+    display: flex;
+    flex-direction: row;
+    width: 85%;
+    margin: 0 auto;
+    padding: 0 $m-size;
   }
   .navbar__close-btn {
     display: none;
