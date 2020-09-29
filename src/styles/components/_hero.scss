@@ -46,6 +46,10 @@
   align-self: center;
 }
 
+@media (min-width: $mobile-landscape-breakpoint) {
+  
+}
+
 @media (min-width: 676px) {
   .hamburger-icon {
     display: none;
@@ -53,6 +57,18 @@
   .brand-logo {
     display: none;
   }
+}
+
+@media (min-width: $tablet-breakpoint) {
+  
+}
+
+@media (min-width: $desktop-breakpoint) {
+  
+}
+
+@media (min-width: $large-desktop-breakpoint) {
+  
 }
 
 

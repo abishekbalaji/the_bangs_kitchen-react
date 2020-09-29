@@ -50,6 +50,10 @@
   transform: translateX(2000px);
 }
 
+@media (min-width: $mobile-landscape-breakpoint) {
+
+}
+
 @media (min-width: 676px) {
   .navbar {
     width: 100%;
@@ -81,3 +85,16 @@
     align-self: center;
   }
 }
+
+@media (min-width: $tablet-breakpoint) {
+  
+}
+
+@media (min-width: $desktop-breakpoint) {
+  
+}
+
+@media (min-width: $large-desktop-breakpoint) {
+  
+}
+

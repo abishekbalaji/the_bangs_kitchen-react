@@ -8,11 +8,9 @@ const MenuGroup = (props) => (
     <div className="menu-group__hero">
       <h1 className="menu__item-group__title">{props.groupName}</h1>
       <img
-        className={"hero__img__" + props.groupName}
+        className={"menu__hero__img menu__hero__img__" + clean(props.groupName)}
         src={props.heroImgSource}
         alt={props.groupName}
-        width="400"
-        height="400"
       />
     </div>
     <div className="menu__item-group">
