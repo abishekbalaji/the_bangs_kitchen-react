@@ -3,6 +3,7 @@ import React from "react";
 import MenuItem from "./MenuItem";
 import clean from "../../cleanUpText";
 
+
 const MenuGroup = (props) => (
   <div id={clean(props.groupName)} className="menu__item-group__container">
     <div className="menu-group__hero">
@@ -25,5 +26,7 @@ const MenuGroup = (props) => (
     </div>
   </div>
 );
+
+
 
 export default MenuGroup;

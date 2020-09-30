@@ -9,4 +9,8 @@ import "normalize.css/normalize.css";
 import backToTopVisibilty from "./backToTopVisibility";
 backToTopVisibilty();
 
+
+import "./scrollOut";
 ReactDOM.render(<AppRouter />, document.getElementById("app"));
+
+

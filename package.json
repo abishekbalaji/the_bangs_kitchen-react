@@ -25,6 +25,7 @@
     "react-modal": "^3.11.2",
     "react-router-dom": "^5.2.0",
     "sass-loader": "^10.0.2",
+    "scroll-out": "^2.2.12",
     "style-loader": "^1.2.1",
     "validator": "^13.1.1",
     "webpack": "^4.44.1",

@@ -23,6 +23,18 @@
   margin-right: $m-size;
 }
 
+.menu__hero__img[data-scroll="in"] {
+  // transform: rotateX("30deg");
+  transition: 2s;
+  transform: translateX(0) rotateX(30deg) rotate(5deg);
+  // transform: translateX(0) rotate(10deg);
+}
+
+.menu__hero__img[data-scroll="out"] {
+  transform: translateX(600px) rotateX(-30deg) rotate(-5deg);
+  // transform: translateX(600px) rotate(-10deg);
+}
+
 .menu__hero__img__grillchicken {
   width: 350px;
   height: 350px;
@@ -143,7 +155,6 @@
   .menu__hero__img__grillchicken {
     width: 450px;
     height: 450px;
-    
   }
 
   .menu__hero__img__mojitos {
