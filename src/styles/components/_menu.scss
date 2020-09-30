@@ -68,6 +68,14 @@
   -moz-box-shadow: 0px 0px 10px 0px #ccc; /* Firefox 3.5 - 3.6 */
   box-shadow: 0px 0px 10px 0px #ccc;
   background-color: white;
+  opacity: 0;
+  transform: translateY(200px);
+  transition: 1s;
+}
+
+.menu__item[data-scroll="in"] {
+  transform: translateY(0);
+  opacity: 1;
 }
 
 // .menu__item:last-child {
