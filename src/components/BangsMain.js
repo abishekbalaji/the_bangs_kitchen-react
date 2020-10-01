@@ -5,6 +5,8 @@ import Combos from "./combos/Combos";
 import Menu from "./menu/Menu";
 import Footer from "./footer/Footer";
 
+import CombosTab from "./combos/CombosTab";
+
 export default class BangsMain extends React.Component {
   scrollToTop = () => {
     window.scrollTo({
@@ -18,6 +20,7 @@ export default class BangsMain extends React.Component {
       <div>
         <Hero />
         <Combos />
+        {/* <CombosTab /> */}
         <Menu />
         <Footer />
         <button

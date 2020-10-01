@@ -1,6 +1,7 @@
 .menu-div {
   background-color: $ivory;
   padding-top: $l-size;
+  padding-bottom: $l-size;
 }
 
 // .menu__container {
@@ -13,16 +14,15 @@
 }
 
 .menu__main-title {
-  font-size: 2.6rem;
+  font-size: 2.2rem;
   margin-top: 0;
-  color:$blue;
+  color: $blue;
   text-align: center;
 }
 
 .menu__hero__img {
   width: 400px;
   height: 400px;
-  margin-right: $m-size;
 }
 
 .menu__hero__img[data-scroll="in"] {
@@ -49,12 +49,17 @@
   margin: 3rem 0;
 }
 
+.menu__hero__img__beverages {
+  width: 250px;
+  height: 250px;
+  margin: 3rem 0;
+}
+
 .menu__item-group__title {
-  font-size: 2.6rem;
+  font-size: 2.2rem;
   color: #ff4b32;
   align-self: center;
   margin-right: 1.5rem;
-  margin-left: $m-size;
 }
 
 .menu__item-group {
@@ -120,43 +125,6 @@
   }
 }
 
-@media (min-width: 676px) {
-  .menu__main-title {
-    font-size: $l-size;
-  }
-
-  .menu__hero__img {
-    width: 450px;
-    height: 450px;
-  }
-
-  .menu__hero__img__grillchicken {
-    width: 400px;
-    height: 400px;
-  }
-
-  .menu__hero__img__mojitos {
-    width: 300px;
-    height: 300px;
-  }
-
-  .menu__item {
-    margin: $m-size;
-    width: 160px;
-  }
-  .menu__item-group__title {
-    font-size: $l-size;
-  }
-
-  .menu__item__title {
-    font-size: 1.6rem;
-  }
-
-  .menu__item__price {
-    font-size: 1.8rem;
-  }
-}
-
 @media (min-width: $tablet-breakpoint) {
   .menu__hero__img {
     width: 500px;
@@ -172,12 +140,66 @@
     height: 350px;
   }
 
+  .menu__hero__img__beverages {
+    width: 350px;
+    height: 350px;
+  }
+
   .menu__item-group__title {
     font-size: $l-size;
     align-self: center;
   }
   .menu__item {
     width: 200px;
+  }
+}
+
+@media (min-width: 676px) {
+  .menu-div {
+    background-color: $ivory;
+    padding-top: $xl-size;
+    padding-bottom: $xl-size;
+  }
+  .menu__main-title {
+    font-size: $l-size;
+  }
+
+  .menu__hero__img {
+    width: 450px;
+    height: 450px;
+    margin-right: $m-size;
+  }
+
+  .menu__hero__img__grillchicken {
+    width: 400px;
+    height: 400px;
+  }
+
+  .menu__hero__img__mojitos {
+    width: 300px;
+    height: 300px;
+  }
+
+  .menu__hero__img__beverages {
+    width: 300px;
+    height: 300px;
+  }
+
+  .menu__item {
+    margin: $m-size;
+    width: 160px;
+  }
+  .menu__item-group__title {
+    font-size: $l-size;
+    margin-left: $m-size;
+  }
+
+  .menu__item__title {
+    font-size: 1.6rem;
+  }
+
+  .menu__item__price {
+    font-size: 1.8rem;
   }
 }
 
@@ -196,6 +218,11 @@
   }
 
   .menu__hero__img__mojitos {
+    width: 400px;
+    height: 400px;
+  }
+
+  .menu__hero__img__beverages {
     width: 400px;
     height: 400px;
   }

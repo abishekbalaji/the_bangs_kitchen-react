@@ -1,5 +1,5 @@
 .footer__container {
-  background-color: $lavender;
+  background-color: $blue;
 }
 
 .footer__contents--web {
@@ -17,7 +17,7 @@
 }
 
 .footer__content-link {
-  color: $lavender-dark;
+  color: white;
 }
 
 .footer__get-in-touch {
@@ -35,12 +35,12 @@
 .footer__location__title,
 .footer__contact__title {
   font-size: 1.6rem;
-  color: $lavender-dark;
+  color: white;
 }
 
 .footer__location__content,
 .footer__contact__content {
-  color: $lavender-dark;
+  color: white;
   font-size: 1.4rem;
 }
 
@@ -52,5 +52,5 @@
 .footer__contact__social-media {
   margin: $s-size $m-size;
   font-size: 1.4rem;
-  color: $lavender-dark;
+  color: white;
 }

@@ -232,6 +232,7 @@ const Menu = () => (
         />
         <MenuGroup
           groupName="Beverages"
+          heroImgSource="/images/beverages.png"
           items={[
             {
               name: "Pepsi / Coke",

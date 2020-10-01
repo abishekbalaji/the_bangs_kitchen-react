@@ -1,38 +1,10 @@
-// .combos-div {
-//   padding: $m-size;
-//   background-color: $ivory-shade;
-// }
+#combos {
+  padding: $m-size;
+  background-color: $ivory-shade;
+}
 
-// .combos__title {
-//   font-size: 2.2rem;
-//   color: $ivory-shade-dark;
-// }
-
-// .combos__container {
-//   display: flex;
-//   flex-wrap: wrap;
-//   justify-content: center;
-// }
-
-// .combo {
-//   width: 45%;
-//   border: 0.001px solid $ivory-shade-dark;
-//   border-radius: 3%;
-//   margin-left: 0.3rem;
-//   margin-bottom: 0.3rem;
-//   color: $ivory-shade-dark;
-// }
-
-// .combo__type {
-//   font-size: 1.8rem;
-// }
-
-// .combo__item {
-//   font-size: $s-size;
-// }
-
-.combos {
-  padding: $l-size;
+.combo__image__container {
+  text-align: center;
 }
 
 .combos__main-title {
@@ -42,84 +14,31 @@
   text-align: center;
 }
 
-.carousel__wrapper {
+.combo__images {
+  margin: auto;
   width: 90%;
-  overflow: hidden;
-  margin: auto;
 }
 
-.carousel-wrapper * {
-  box-sizing: border-box;
+@media (min-width: $tablet-breakpoint) {
+  .combos__main-title {
+    font-size: $l-size;
+  }
 }
 
-.carousel {
-  transform-style: preserve-3d;
+@media (min-width: 676px) {
+  #combos {
+    padding: $xl-size;
+    background-color: $ivory-shade;
+  }
+  .combos__main-title {
+  }
 }
 
-.carousel__image {
-  opacity: 0;
-  position: absolute;
-  top: 0;
-  width: 100%;
-  margin: auto;
-  // padding: 1rem 4rem;
-  z-index: 100;
-  transition: transform 0.5s, opacity 0.5s, z-index 0.5s;
+@media (min-width: $desktop-breakpoint) {
+  .combos__main-title {
+    font-size: $xl-size;
+  }
 }
 
-.carousel__image.initial,
-.carousel__image.active {
-  opacity: 1;
-  position: relative;
-  z-index: 900;
+@media (min-width: $large-desktop-breakpoint) {
 }
-
-.carousel__image.prev,
-.carousel__image.next {
-  z-index: 800;
-}
-
-.carousel__image.prev {
-  transform: translateX(-100%); /* Move 'prev' item to the left */
-}
-
-.carousel__image.next {
-  transform: translateX(100%); /* Move 'next' item to the right */
-}
-
-.carousel__button--prev,
-.carousel__button--next {
-  opacity: 0.5;
-  position: absolute;
-  top: 50%;
-  font-size: 1.4rem;
-  transform: translateY(-50%);
-  border: 1px solid rgba(0, 0, 0, 0.5);
-  padding: 2px 3.5px;
-  border-radius: 50%;
-  background-color: rgba(255, 255, 255, 0.5);
-  cursor: pointer;
-  z-index: 1001; /* Sit on top of everything */
-}
-.carousel__button--prev {
-  left: 0;
-}
-.carousel__button--next {
-  right: 0;
-}
-// .carousel__button--prev::after,
-// .carousel__button--next::after {
-//   content: " ";
-//   position: absolute;
-//   width: 10px;
-//   height: 10px;
-//   top: 50%;
-//   left: 54%;
-//   border-right: 2px solid black;
-//   border-bottom: 2px solid black;
-//   transform: translate(-50%, -50%) rotate(135deg);
-// }
-// .carousel__button--next::after {
-//   left: 47%;
-//   transform: translate(-50%, -50%) rotate(-45deg);
-// }

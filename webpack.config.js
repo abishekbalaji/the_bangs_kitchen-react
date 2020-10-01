@@ -15,8 +15,22 @@ module.exports = {
         exclude: /node_modules/,
       },
       {
-        use: ["style-loader", "css-loader", "sass-loader"],
         test: /\.s?css$/,
+        use: [
+          {
+            loader: "style-loader",
+          },
+          {
+            loader: "css-loader",
+          },
+          {
+            loader: "sass-loader",
+          },
+        ],
+      },
+      {
+        test: /\.(png|woff|woff2|eot|ttf|svg)$/,
+        loader: "url-loader?limit=100000",
       },
     ],
   },
