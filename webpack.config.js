@@ -1,7 +1,12 @@
 const path = require("path");
+const MiniExtractTextPlugin = require("mini-css-extract-plugin");
 
 module.exports = (env) => {
   const isProduction = env === "production";
+  const CSSExtract = new MiniExtractTextPlugin({
+    filename: "styles.css",
+    chunkFilename: "chunk.css",
+  });
   return {
     entry: "./src/app.js",
     output: {
@@ -20,13 +25,22 @@ module.exports = (env) => {
           test: /\.s?css$/,
           use: [
             {
-              loader: "style-loader",
+              loader: MiniExtractTextPlugin.loader,
+              options: {
+                publicPath: path.join(__dirname, "public"),
+              },
             },
             {
               loader: "css-loader",
+              options: {
+                sourceMap: true,
+              },
             },
             {
               loader: "sass-loader",
+              options: {
+                sourceMap: true,
+              },
             },
           ],
         },
@@ -36,9 +50,22 @@ module.exports = (env) => {
         },
       ],
     },
-    devtool: isProduction ? "source-map" : "cheap-module-eval-source-map",
+    plugins: [CSSExtract],
+    devtool: isProduction ? "source-map" : "inline-source-map",
     devServer: {
       contentBase: path.join(__dirname, "public"),
     },
   };
 };
+
+// [
+//   {
+//     loader: "style-loader",
+//   },
+//   {
+//     loader: "css-loader",
+//   },
+//   {
+//     loader: "sass-loader",
+//   },
+// ],
