@@ -9,9 +9,9 @@ const Contact = () => (
       <p className="footer__contact__content">Whatsapp</p>
     </div>
     <div className="footer__contact__social-media__container">
-      <span className="footer__contact__social-media">FB</span>
-      <span className="footer__contact__social-media">IG</span>
-      <span className="footer__contact__social-media">TW</span>
+      <span className="footer__contact__social-media"><a href="#" target="_blank"><i className="fab fa-facebook contact-icons"></i></a></span>
+      <span className="footer__contact__social-media"><a href="#" target="_blank"><i className="fab fa-instagram contact-icons"></i></a></span>
+      <span className="footer__contact__social-media"><a href="#" target="_blank"><i className="fab fa-twitter contact-icons"></i></a></span>
     </div>
   </div>
 );

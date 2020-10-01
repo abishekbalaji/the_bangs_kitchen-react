@@ -10,11 +10,13 @@ import MenuLink from "./MenuLink"; // For mobile
 const Footer = () => (
   <div id="footer" className="footer__container">
     <div className="footer__contents--web">
-      <ComboLink />
+      <div className="footer__combo-and-about">
+        <Link className="footer__about" to="/about">About</Link>
+        <ComboLink />
+      </div>
       <MenuLinks />
       <Location />
       <Contact />
-      <Link to="/about">About</Link>
     </div>
     <div className="footer__contents--mobile">
       <div className="footer__content-links">
