@@ -1,9 +1,7 @@
 .hero__container {
   display: flex;
   flex-direction: column;
-  background-color: $lavender;
   // width: 100vw;
-  height: 600px;
   align-content: center;
   overflow-x: hidden;
 }
@@ -20,9 +18,13 @@
   align-self: center;
 }
 
-.hero__image {
-  width: 200px;
+.main-hero-mob {
+  width: 100%;
   height: auto;
+}
+
+.main-hero-desk {
+  display: none;
 }
 
 .brand {
@@ -32,12 +34,12 @@
   top: 0;
   left: 0;
   width: 100%;
-  background-color: $lavender;
+  background-color: $blue;
   z-index: 1000;
 }
 
 .brand-logo {
-  margin: $m-size;
+  margin: 0.8rem $m-size;
 }
 
 .hamburger-icon {
@@ -46,8 +48,8 @@
   border: none;
   border-radius: 5%;
   background-color: $ivory;
-  margin: $m-size;
-  font-size: $l-size;
+  margin: 0.8rem $m-size;
+  font-size: 2.3rem;
   // margin-left: auto;
   align-self: center;
 }
@@ -63,6 +65,15 @@
   .brand-logo {
     display: none;
   }
+  .main-hero-mob {
+    display: none;
+  }
+  .main-hero-desk {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
 }
 
 @media (min-width: $tablet-breakpoint) {

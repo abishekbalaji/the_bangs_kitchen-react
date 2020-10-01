@@ -23,15 +23,15 @@ export default class Hero extends React.Component {
           onClick={this.hideNavigation}
         ></div>
         <div className="brand">
-          <img className="brand-logo" src="/images/logo.png" width="45" height="45" />
+          <img className="brand-logo" src="/images/logo.png" width="30" height="30" />
           <button className="hamburger-icon" onClick={this.showNavigation}>
             <i className="fas fa-hamburger"></i>
           </button>
         </div>
         <NavBar />
         <div className="hero">
-          <img className="hero__image" src="/images/logo.png" />
-          <h3>Subtitle</h3>
+          <img className="main-hero-mob" src="/images/hero-img-mob.png"></img>
+          <img className="main-hero-desk" src="/images/hero-img.png"></img>
         </div>
       </div>
     );

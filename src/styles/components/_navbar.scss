@@ -8,7 +8,7 @@
   right: 0;
   flex-direction: column;
   width: 70%;
-  background-color: $ivory;
+  background-color: $blue;
   z-index: 4000;
 }
 
@@ -19,7 +19,7 @@
 
 .nav__item {
   margin: $m-size;
-  color: $lavender-dark;
+  color: white;
 }
 
 .brand-logo-web {
@@ -31,8 +31,9 @@
   width: fit-content;
   border: none;
   margin: $m-size;
-  background-color: $lavender;
-  color: $lavender-dark;
+  background-color: white;
+  color: $blue;
+  font-weight: bold;
   padding: 1rem $m-size;
   border-radius: 9%;
   margin-left: auto;
@@ -46,21 +47,19 @@
 }
 
 @media (min-width: $mobile-landscape-breakpoint) {
-
 }
 
 @media (min-width: 676px) {
   .navbar {
     width: 100%;
     visibility: visible;
-
     position: fixed;
     top: 0;
     left: 0;
 
     transition: 0s;
     transform: translateX(0);
-    background-color: $lavender;
+    background-color: $blue;
   }
   .navbar__container__desk {
     display: flex;
@@ -74,7 +73,7 @@
   }
   .brand-logo-web {
     display: inline-block;
-    margin: $m-size;
+    margin: 0.6rem $m-size;
   }
   .nav__item {
     align-self: center;
@@ -82,14 +81,10 @@
 }
 
 @media (min-width: $tablet-breakpoint) {
-  
 }
 
 @media (min-width: $desktop-breakpoint) {
-  
 }
 
 @media (min-width: $large-desktop-breakpoint) {
-  
 }
-
