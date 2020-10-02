@@ -44,6 +44,11 @@
   font-size: 1.2rem;
 }
 
+.footer__contact__content:hover {
+  color: yellow;
+  cursor: pointer;
+}
+
 .footer__contact__social-media__container {
   display: flex;
   justify-content: center;
@@ -58,7 +63,14 @@
   color: white;
 }
 
+.contact-icons:hover {
+  color: yellow;
+}
+
 @media (min-width: $tablet-breakpoint) {
+  .footer__container {
+    padding: $xl-size $l-size;
+  }
   .footer__contents--web {
     display: flex;
     justify-content: space-around;
@@ -72,17 +84,29 @@
     display: flex;
     flex-direction: column;
     padding: $m-size;
+    width: 30%;
   }
 
   .footer__content-link {
     font-size: $m-size;
   }
 
+  .footer__content-link:hover {
+    color: yellow;
+    font-size: 1.8rem;
+  }
+
   .footer__about {
     font-size: $m-size;
     color: white;
-    margin-top: 10.72px;
-    margin-bottom: 14px;
+    // margin-top: 10.72px;
+    // margin-bottom: 14px;
+  }
+
+  .footer__about:hover,
+  .footer__about:active {
+    color: yellow;
+    font-size: 1.8rem;
   }
 
   .footer__location,
@@ -94,6 +118,7 @@
   .footer__location__title,
   .footer__contact__title {
     font-size: $m-size;
+    margin-bottom: 20px;
   }
 
   .footer__location__content,
@@ -110,7 +135,7 @@
     font-size: $m-size;
     width: fit-content;
     color: white;
-    margin-bottom: 14px;
+    margin-bottom: 20px;
   }
 
   .footer__menu-links__container {
@@ -122,5 +147,33 @@
     color: white;
     font-size: 1.4rem;
     margin-bottom: 14px;
+    border-left: 2px solid white;
+    padding-left: 1rem;
+  }
+
+  .footer__menus:hover {
+    color: yellow;
+    border-left: 2px solid yellow;
+  }
+
+  .footer_about-text {
+    // width: 200px;
+    margin-bottom: 3rem;
+  }
+  .footer__about-text__title {
+    margin-top: 10.72px;
+    color: white;
+    font-size: $m-size;
+  }
+  .footer__about-text__content {
+    color: white;
+    font-size: 1.4rem;
+    text-align: justify;
+    line-height: 1.8;
+  }
+
+  .footer__combos-about-links-div {
+    display: flex;
+    justify-content: space-around;
   }
 }

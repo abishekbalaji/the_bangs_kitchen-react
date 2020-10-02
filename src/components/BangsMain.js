@@ -18,7 +18,6 @@ export default class BangsMain extends React.Component {
       <div>
         <Hero />
         <Combos />
-        {/* <CombosTab /> */}
         <Menu />
         <Footer />
         <button

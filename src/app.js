@@ -6,6 +6,7 @@ import AppRouter from "./routers/AppRouter";
 import "./styles/styles.scss";
 import "normalize.css/normalize.css";
 import "react-multi-carousel/lib/styles.css";
+import "animate.css/animate.min.css"
 
 import backToTopVisibilty from "./backToTopVisibility";
 backToTopVisibilty();

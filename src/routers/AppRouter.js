@@ -6,6 +6,9 @@ import About from "../components/About";
 
 const AppRouter = () => (
   <BrowserRouter>
+    {/* <h1>
+      heoooooooolhukjhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh
+    </h1> */}
     <Switch>
       <Route path="/" component={BangsMain} exact={true} />
       <Route path="/about" component={About} />
