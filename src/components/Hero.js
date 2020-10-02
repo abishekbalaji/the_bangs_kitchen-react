@@ -30,8 +30,8 @@ export default class Hero extends React.Component {
         </div>
         <NavBar />
         <div className="hero">
-          <img className="main-hero-mob" src="/images/hero-img-mob.png"></img>
-          <img className="main-hero-desk" src="/images/hero-img.png"></img>
+          <img className="main-hero-mob" src="/images/hero-img-mob-big.png"></img>
+          <img className="main-hero-desk" src="/images/hero-img-700.png"></img>
         </div>
       </div>
     );

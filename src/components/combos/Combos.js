@@ -77,19 +77,19 @@ export default class Combos extends React.Component {
           swipeable
         >
           <div className="combo__image__container">
-            <img className="combo__images" src="/images/posters/combo1.png" />
+            <img className="combo__images" src="/images/posters/combo1-300.png" />
           </div>
           <div className="combo__image__container">
-            <img className="combo__images" src="/images/posters/combo2.png" />
+            <img className="combo__images" src="/images/posters/combo2-300.png" />
           </div>
           <div className="combo__image__container">
-            <img className="combo__images" src="/images/posters/combo3.png" />
+            <img className="combo__images" src="/images/posters/combo3-300.png" />
           </div>
           <div className="combo__image__container">
-            <img className="combo__images" src="/images/posters/combo4.png" />
+            <img className="combo__images" src="/images/posters/combo4-300.png" />
           </div>
           <div className="combo__image__container">
-            <img className="combo__images" src="/images/posters/combo5.png" />
+            <img className="combo__images" src="/images/posters/combo5-300.png" />
           </div>
         </Carousel>
       </div>
