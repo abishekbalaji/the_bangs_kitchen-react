@@ -14,27 +14,27 @@ const Menu = () => (
             {
               name: "Shawarma Roll",
               price: 70,
-              imgSource: "/images/fried-chicken-menu-item.png",
+              imgSource: "/images/menu-items/shawarma.png",
             },
             {
               name: "Spicy Shawarma Roll",
               price: 75,
-              imgSource: "/images/fried-chicken-menu-item.png",
+              imgSource: "/images/menu-items/shawarma.png",
             },
             {
               name: "Spl. Shawarma Roll",
               price: 80,
-              imgSource: "/images/fried-chicken-menu-item.png",
+              imgSource: "/images/menu-items/shawarma.png",
             },
             {
               name: "Shawarma on a Plate",
               price: 110,
-              imgSource: "/images/fried-chicken-menu-item.png",
+              imgSource: "/images/menu-items/shawarma.png",
             },
             {
               name: "Malabar Shawarma",
               price: 100,
-              imgSource: "/images/fried-chicken-menu-item.png",
+              imgSource: "/images/menu-items/shawarma.png",
             },
           ]}
         />
@@ -45,27 +45,27 @@ const Menu = () => (
             {
               name: "1 PC",
               price: 75,
-              imgSource: "/images/fried-chicken-menu-item.png",
+              imgSource: "/images/menu-items/fried-chicken.png",
             },
             {
               name: "2 PCS",
               price: 139,
-              imgSource: "/images/fried-chicken-menu-item.png",
+              imgSource: "/images/menu-items/fried-chicken.png",
             },
             {
               name: "4 PCS",
               price: 279,
-              imgSource: "/images/fried-chicken-menu-item.png",
+              imgSource: "/images/menu-items/fried-chicken.png",
             },
             {
               name: "Popcorn Chicken",
               price: 99,
-              imgSource: "/images/fried-chicken-menu-item.png",
+              imgSource: "/images/menu-items/fried-chicken.png",
             },
             {
               name: "Hot Wings (5 Pcs)",
               price: 99,
-              imgSource: "/images/fried-chicken-menu-item.png",
+              imgSource: "/images/menu-items/fried-chicken.png",
             },
           ]}
         />
@@ -76,27 +76,27 @@ const Menu = () => (
             {
               name: "Paneer Roll",
               price: 84,
-              imgSource: "/images/fried-chicken-menu-item.png",
+              imgSource: "/images/menu-items/roll.png",
             },
             {
               name: "Crispy Veg Roll",
               price: 79,
-              imgSource: "/images/fried-chicken-menu-item.png",
+              imgSource: "/images/menu-items/roll.png",
             },
             {
               name: "Fried Chicken Roll",
               price: 99,
-              imgSource: "/images/fried-chicken-menu-item.png",
+              imgSource: "/images/menu-items/roll.png",
             },
             {
               name: "Chicken BBQ Roll",
               price: 109,
-              imgSource: "/images/fried-chicken-menu-item.png",
+              imgSource: "/images/menu-items/roll.png",
             },
             {
               name: "Chicken Tikka Roll",
               price: 109,
-              imgSource: "/images/fried-chicken-menu-item.png",
+              imgSource: "/images/menu-items/roll.png",
             },
           ]}
         />
@@ -107,27 +107,27 @@ const Menu = () => (
             {
               name: "Choco Choo Sandwich",
               price: 59,
-              imgSource: "/images/fried-chicken-menu-item.png",
+              imgSource: "/images/menu-items/sandwich.png",
             },
             {
               name: "Paneer Sandwich",
               price: 79,
-              imgSource: "/images/fried-chicken-menu-item.png",
+              imgSource: "/images/menu-items/sandwich.png",
             },
             {
               name: "Chicken Tikka Sandwich",
               price: 99,
-              imgSource: "/images/fried-chicken-menu-item.png",
+              imgSource: "/images/menu-items/sandwich.png",
             },
             {
               name: "Pepper BBQ Sandwich",
               price: 99,
-              imgSource: "/images/fried-chicken-menu-item.png",
+              imgSource: "/images/menu-items/sandwich.png",
             },
             {
               name: "Chicken Mayo Sandwich",
               price: 89,
-              imgSource: "/images/fried-chicken-menu-item.png",
+              imgSource: "/images/menu-items/sandwich.png",
             },
           ]}
         />
@@ -138,22 +138,22 @@ const Menu = () => (
             {
               name: "Veg. Mini Burger",
               price: 59,
-              imgSource: "/images/fried-chicken-menu-item.png",
+              imgSource: "/images/menu-items/burger.png",
             },
             {
               name: "Veg. Patty Burger",
               price: 79,
-              imgSource: "/images/fried-chicken-menu-item.png",
+              imgSource: "/images/menu-items/burger.png",
             },
             {
               name: "Chicken Patty Burger",
               price: 99,
-              imgSource: "/images/fried-chicken-menu-item.png",
+              imgSource: "/images/menu-items/burger.png",
             },
             {
               name: "Chicken Fillet Burger",
               price: 109,
-              imgSource: "/images/fried-chicken-menu-item.png",
+              imgSource: "/images/menu-items/burger.png",
             },
           ]}
         />
@@ -164,17 +164,17 @@ const Menu = () => (
             {
               name: "Quarter",
               price: 100,
-              imgSource: "/images/fried-chicken-menu-item.png",
+              imgSource: "/images/menu-items/grill-chicken.png",
             },
             {
               name: "Half",
               price: 180,
-              imgSource: "/images/fried-chicken-menu-item.png",
+              imgSource: "/images/menu-items/grill-chicken.png",
             },
             {
               name: "Full",
               price: 340,
-              imgSource: "/images/fried-chicken-menu-item.png",
+              imgSource: "/images/menu-items/grill-chicken.png",
             },
           ]}
         />
@@ -185,27 +185,27 @@ const Menu = () => (
             {
               name: "Oreo Milkshake",
               price: 89,
-              imgSource: "/images/fried-chicken-menu-item.png",
+              imgSource: "/images/menu-items/milkshake.png",
             },
             {
               name: "Choco Kitkat Shake",
               price: 79,
-              imgSource: "/images/fried-chicken-menu-item.png",
+              imgSource: "/images/menu-items/milkshake.png",
             },
             {
               name: "Blueberry Milkshake",
               price: 89,
-              imgSource: "/images/fried-chicken-menu-item.png",
+              imgSource: "/images/menu-items/milkshake.png",
             },
             {
               name: "Butterscotch Shake",
               price: 69,
-              imgSource: "/images/fried-chicken-menu-item.png",
+              imgSource: "/images/menu-items/milkshake.png",
             },
             {
               name: "Vanilla Shake",
               price: 59,
-              imgSource: "/images/fried-chicken-menu-item.png",
+              imgSource: "/images/menu-items/milkshake.png",
             },
           ]}
         />
@@ -216,17 +216,17 @@ const Menu = () => (
             {
               name: "Lemon Mint",
               price: 59,
-              imgSource: "/images/fried-chicken-menu-item.png",
+              imgSource: "/images/menu-items/mojito.png",
             },
             {
               name: "Blue Caracao",
               price: 69,
-              imgSource: "/images/fried-chicken-menu-item.png",
+              imgSource: "/images/menu-items/mojito.png",
             },
             {
               name: "Green Apple",
               price: 79,
-              imgSource: "/images/fried-chicken-menu-item.png",
+              imgSource: "/images/menu-items/mojito.png",
             },
           ]}
         />
@@ -237,12 +237,12 @@ const Menu = () => (
             {
               name: "Pepsi / Coke",
               price: 40,
-              imgSource: "/images/fried-chicken-menu-item.png",
+              imgSource: "/images/menu-items/beverages.png",
             },
             {
               name: "Water Bottle 1 Litre",
               price: 30,
-              imgSource: "/images/fried-chicken-menu-item.png",
+              imgSource: "/images/menu-items/beverages.png",
             },
           ]}
         />

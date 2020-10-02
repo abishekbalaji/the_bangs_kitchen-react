@@ -20,52 +20,27 @@
   text-align: center;
 }
 
+.menu__item-group__container {
+  margin-top: $m-size;
+}
+
 .menu__hero__img {
   width: 400px;
-  height: 400px;
   // transition: 2s;
   // transform: translateX(600px) rotateX(-30deg) rotate(-5deg);
 }
 
-// .menu__hero__img[data-scroll="in"] {
-//   // transform: rotateX("30deg");
-//   transition: 2s;
-//   transform: translateX(0) rotateX(30deg) rotate(5deg);
-//   // transform: translateX(0) rotate(10deg);
-// }
-
-// .menu__hero__img[data-scroll="out"] {
-//   transform: translateX(600px) rotateX(-30deg) rotate(-5deg);
-//   // transform: translateX(600px) rotate(-10deg);
-// }
-
-// .menu__hero__img--in {
-//   // transform: rotateX("30deg");
-
-//   transform: translateX(0) rotateX(30deg) rotate(5deg);
-//   // transform: translateX(0) rotate(10deg);
-// }
-
-// .menu__hero__img--out {
-//   transform: translateX(600px) rotateX(-30deg) rotate(-5deg);
-//   // transform: translateX(600px) rotate(-10deg);
-// }
-
 .menu__hero__img__grillchicken {
   width: 350px;
-  height: 350px;
-  margin: 4rem 0;
 }
 
 .menu__hero__img__mojitos {
   width: 250px;
-  height: 250px;
   margin: 3rem 0;
 }
 
 .menu__hero__img__beverages {
-  width: 250px;
-  height: 250px;
+  width: 100px;
   margin: 3rem 0;
 }
 
@@ -80,6 +55,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  margin-top: $m-size;
 }
 
 .menu__item {
@@ -142,21 +118,17 @@
 @media (min-width: $tablet-breakpoint) {
   .menu__hero__img {
     width: 500px;
-    height: 500px;
   }
   .menu__hero__img__grillchicken {
     width: 450px;
-    height: 450px;
   }
 
   .menu__hero__img__mojitos {
     width: 350px;
-    height: 350px;
   }
 
   .menu__hero__img__beverages {
-    width: 350px;
-    height: 350px;
+    width: 180px;
   }
 
   .menu__item-group__title {
@@ -165,6 +137,9 @@
   }
   .menu__item {
     width: 200px;
+  }
+  .menu__item-group__container {
+    margin-top: $l-size;
   }
 }
 
@@ -180,23 +155,19 @@
 
   .menu__hero__img {
     width: 450px;
-    height: 450px;
     margin-right: $m-size;
   }
 
   .menu__hero__img__grillchicken {
     width: 400px;
-    height: 400px;
   }
 
   .menu__hero__img__mojitos {
     width: 300px;
-    height: 300px;
   }
 
   .menu__hero__img__beverages {
-    width: 300px;
-    height: 300px;
+    width: 130px;
   }
 
   .menu__item {
@@ -223,22 +194,18 @@
   // }
   .menu__hero__img {
     width: 550px;
-    height: 550px;
   }
 
   .menu__hero__img__grillchicken {
     width: 500px;
-    height: 500px;
   }
 
   .menu__hero__img__mojitos {
     width: 400px;
-    height: 400px;
   }
 
   .menu__hero__img__beverages {
-    width: 400px;
-    height: 400px;
+    width: 200px;
   }
 
   .menu__main-title {
@@ -246,6 +213,9 @@
   }
   .menu__item-group__title {
     font-size: $xl-size;
+  }
+  .menu__item-group__container {
+    margin-top: $xl-size;
   }
 }
 
