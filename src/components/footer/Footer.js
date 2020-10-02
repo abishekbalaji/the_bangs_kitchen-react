@@ -7,6 +7,7 @@ import Location from "./Location";
 import Contact from "./Contact";
 import MenuLink from "./MenuLink"; // For mobile
 
+
 const Footer = () => (
   <div id="footer" className="footer__container">
     <div className="footer__contents--web">
@@ -43,6 +44,7 @@ const Footer = () => (
         <Contact />
       </div>
     </div>
+    
   </div>
 );
 
