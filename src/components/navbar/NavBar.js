@@ -8,13 +8,16 @@ export default class NavBar extends React.Component {
   handleScrollContact = () => {
     const contact = document.getElementById("footer");
     scrollToElem(contact);
+    this.handleNavClose();
   };
   handleScroll = (e) => {
     const idRaw = e.target.textContent;
     const id = clean(idRaw);
     const elem = document.getElementById(id);
     scrollToElem(elem);
+    this.handleNavClose();
   };
+
   handleNavClose = () => {
     document.getElementById("nav").classList.remove("navbar-visible");
     document.getElementById("nav").classList.add("navbar-invisible");
@@ -46,7 +49,7 @@ export default class NavBar extends React.Component {
             </NavLink>
             <div className="nav__item">
               <div className="dropdown">
-                <Link className="dropbtn" to="/" onClick={this.handleScroll}>
+                <Link className="dropbtn" to="/">
                   Menu
                 </Link>
                 <div className="dropdown-content">
