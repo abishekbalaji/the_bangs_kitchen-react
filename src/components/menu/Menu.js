@@ -8,7 +8,7 @@ const Menu = () => (
       <h1 className="menu__main-title">Menu</h1>
       <div className="menu__container">
         <MenuGroup
-          groupName="Shawarma"
+          groupName="SHAWARMA"
           heroImgSource="/images/new/shawarma-500-high.png"
           items={[
             {
@@ -39,7 +39,7 @@ const Menu = () => (
           ]}
         />
         <MenuGroup
-          groupName="Fried Chicken"
+          groupName="FRIED CHICKEN"
           heroImgSource="/images/new/fried-chicken-500-high.png"
           items={[
             {
@@ -70,7 +70,7 @@ const Menu = () => (
           ]}
         />
         <MenuGroup
-          groupName="Rolls"
+          groupName="ROLLS"
           heroImgSource="/images/new/paneer-roll-500-high.png"
           items={[
             {
@@ -101,7 +101,7 @@ const Menu = () => (
           ]}
         />
         <MenuGroup
-          groupName="Sandwiches"
+          groupName="SANDWICHES"
           heroImgSource="/images/new/sandwich-500-high.png"
           items={[
             {
@@ -132,7 +132,7 @@ const Menu = () => (
           ]}
         />
         <MenuGroup
-          groupName="Burgers"
+          groupName="BURGERS"
           heroImgSource="/images/new/burger-500-high.png"
           items={[
             {
@@ -158,7 +158,7 @@ const Menu = () => (
           ]}
         />
         <MenuGroup
-          groupName="Grill Chicken"
+          groupName="GRILL CHICKEN"
           heroImgSource="/images/new/grill-chicken-500-high.png"
           items={[
             {
@@ -179,7 +179,7 @@ const Menu = () => (
           ]}
         />
         <MenuGroup
-          groupName="Milkshakes"
+          groupName="MILKSHAKES"
           heroImgSource="/images/new/milkshake-500-high.png"
           items={[
             {
@@ -210,8 +210,8 @@ const Menu = () => (
           ]}
         />
         <MenuGroup
-          groupName="Mojitos"
-          heroImgSource="/images/new/mojito-500-high.png"
+          groupName="MOJITOS"
+          heroImgSource="/images/new/mojito.png"
           items={[
             {
               name: "Lemon Mint",
@@ -231,8 +231,8 @@ const Menu = () => (
           ]}
         />
         <MenuGroup
-          groupName="Beverages"
-          heroImgSource="/images/new/beverages-500-high.png"
+          groupName="BEVERAGES"
+          heroImgSource="/images/new/beverages.png"
           items={[
             {
               name: "Pepsi / Coke",

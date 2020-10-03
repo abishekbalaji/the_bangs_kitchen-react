@@ -32,6 +32,7 @@ export default class Combos extends React.Component {
         <Carousel
           additionalTransfrom={0}
           arrows
+          autoPlay
           autoPlaySpeed={3000}
           centerMode={false}
           className=""

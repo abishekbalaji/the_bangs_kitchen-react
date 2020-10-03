@@ -34,15 +34,11 @@
   width: 350px;
 }
 
-.menu__hero__img__mojitos {
-  width: 250px;
-  margin: 3rem 0;
-}
 
-.menu__hero__img__beverages {
-  width: 100px;
-  margin: 3rem 0;
-}
+// .menu__hero__img__beverages {
+//   width: 100px;
+//   margin: 3rem 0;
+// }
 
 .menu__item-group__title {
   font-size: 2.2rem;
@@ -60,6 +56,7 @@
 
 .menu__item {
   width: 140px;
+  height: 197px;
   margin: 0.5rem;
   -webkit-box-shadow: 0px 0px 10px 0px #ccc; /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
   -moz-box-shadow: 0px 0px 10px 0px #ccc; /* Firefox 3.5 - 3.6 */
@@ -98,6 +95,7 @@
 .menu__item__price {
   font-size: 1.6rem;
   color: $blue;
+  // display: inline-block;
 }
 
 .price {
@@ -116,34 +114,7 @@
 @media (max-width: 350px) {
   .menu__item {
     width: 120px;
-  }
-}
-
-@media (min-width: $tablet-breakpoint) {
-  .menu__hero__img {
-    width: 500px;
-  }
-  .menu__hero__img__grillchicken {
-    width: 450px;
-  }
-
-  .menu__hero__img__mojitos {
-    width: 350px;
-  }
-
-  .menu__hero__img__beverages {
-    width: 180px;
-  }
-
-  .menu__item-group__title {
-    font-size: $l-size;
-    align-self: center;
-  }
-  .menu__item {
-    width: 200px;
-  }
-  .menu__item-group__container {
-    margin-top: $l-size;
+    height: 186px;
   }
 }
 
@@ -166,17 +137,14 @@
     width: 400px;
   }
 
-  .menu__hero__img__mojitos {
-    width: 300px;
-  }
-
-  .menu__hero__img__beverages {
-    width: 130px;
-  }
+  // .menu__hero__img__beverages {
+  //   width: 130px;
+  // }
 
   .menu__item {
     margin: $m-size;
     width: 160px;
+    height: 217px;
   }
   .menu__item-group__title {
     font-size: $l-size;
@@ -192,6 +160,31 @@
   }
 }
 
+@media (min-width: $tablet-breakpoint) {
+  .menu__hero__img {
+    width: 500px;
+  }
+  .menu__hero__img__grillchicken {
+    width: 450px;
+  }
+
+  // .menu__hero__img__beverages {
+  //   width: 180px;
+  // }
+
+  .menu__item-group__title {
+    font-size: $l-size;
+    align-self: center;
+  }
+  .menu__item {
+    width: 200px;
+    height: 237px;
+  }
+  .menu__item-group__container {
+    margin-top: $l-size;
+  }
+}
+
 @media (min-width: $desktop-breakpoint) {
   // .menu__item {
   //   width: 220px;
@@ -204,13 +197,9 @@
     width: 500px;
   }
 
-  .menu__hero__img__mojitos {
-    width: 400px;
-  }
-
-  .menu__hero__img__beverages {
-    width: 200px;
-  }
+  // .menu__hero__img__beverages {
+  //   width: 200px;
+  // }
 
   .menu__main-title {
     font-size: $xl-size;

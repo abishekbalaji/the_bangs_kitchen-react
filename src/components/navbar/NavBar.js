@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 import clean from "../../cleanUpText";
 import scrollToElem from "../../scrollToElem";
@@ -42,11 +42,107 @@ export default class NavBar extends React.Component {
               Home
             </NavLink>
             <NavLink to="/" onClick={this.handleScroll} className="nav__item">
-              Menu
-            </NavLink>
-            <NavLink to="/" onClick={this.handleScroll} className="nav__item">
               Combos
             </NavLink>
+            <div className="nav__item">
+              <div className="dropdown">
+                <Link className="dropbtn" to="/" onClick={this.handleScroll}>
+                  Menu
+                </Link>
+                <div className="dropdown-content">
+                  <Link
+                    className="navbar__dropdown__links"
+                    to="/"
+                    onClick={this.handleScroll}
+                  >
+                    <span className="navbar__icon">
+                      <i className="fas fa-angle-double-right"></i>
+                    </span>
+                    <span> Shawarma</span>
+                  </Link>
+                  <Link
+                    className="navbar__dropdown__links"
+                    to="/"
+                    onClick={this.handleScroll}
+                  >
+                    <span className="navbar__icon">
+                      <i className="fas fa-angle-double-right"></i>
+                    </span>
+                    <span> Fried Chicken</span>
+                  </Link>
+                  <Link
+                    className="navbar__dropdown__links"
+                    to="/"
+                    onClick={this.handleScroll}
+                  >
+                    <span className="navbar__icon">
+                      <i className="fas fa-angle-double-right"></i>
+                    </span>
+                    <span> Rolls</span>
+                  </Link>
+                  <Link
+                    className="navbar__dropdown__links"
+                    to="/"
+                    onClick={this.handleScroll}
+                  >
+                    <span className="navbar__icon">
+                      <i className="fas fa-angle-double-right"></i>
+                    </span>
+                    <span> Sandwiches</span>
+                  </Link>
+                  <Link
+                    className="navbar__dropdown__links"
+                    to="/"
+                    onClick={this.handleScroll}
+                  >
+                    <span className="navbar__icon">
+                      <i className="fas fa-angle-double-right"></i>
+                    </span>
+                    <span> Burgers</span>
+                  </Link>
+                  <Link
+                    className="navbar__dropdown__links"
+                    to="/"
+                    onClick={this.handleScroll}
+                  >
+                    <span className="navbar__icon">
+                      <i className="fas fa-angle-double-right"></i>
+                    </span>
+                    <span> Grill Chicken</span>
+                  </Link>
+                  <Link
+                    className="navbar__dropdown__links"
+                    to="/"
+                    onClick={this.handleScroll}
+                  >
+                    <span className="navbar__icon">
+                      <i className="fas fa-angle-double-right"></i>
+                    </span>
+                    <span> Milkshakes</span>
+                  </Link>
+                  <Link
+                    className="navbar__dropdown__links"
+                    to="/"
+                    onClick={this.handleScroll}
+                  >
+                    <span className="navbar__icon">
+                      <i className="fas fa-angle-double-right"></i>
+                    </span>
+                    <span> Mojitos</span>
+                  </Link>
+                  <Link
+                    className="navbar__dropdown__links"
+                    to="/"
+                    onClick={this.handleScroll}
+                  >
+                    <span className="navbar__icon">
+                      <i className="fas fa-angle-double-right"></i>
+                    </span>
+                    <span> Beverages</span>
+                  </Link>
+                </div>
+              </div>
+            </div>
             <NavLink to="/about" className="nav__item">
               About
             </NavLink>
