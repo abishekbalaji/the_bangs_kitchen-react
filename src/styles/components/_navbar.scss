@@ -17,6 +17,11 @@
   flex-direction: column;
 }
 
+.nav__items-div {
+  display: flex;
+  flex-direction: column;
+}
+
 .nav__item {
   margin: $m-size;
   color: white;
@@ -71,6 +76,11 @@
     width: 85%;
     margin: 0 auto;
     padding: 0 $m-size;
+  }
+  .nav__items-div {
+    display: flex;
+    flex-direction: row;
+    // margin: auto;
   }
   .navbar__close-btn {
     display: none;

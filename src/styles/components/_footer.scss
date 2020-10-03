@@ -59,6 +59,10 @@
   font-size: 1.4rem;
 }
 
+.footer__contact__social-media:first-child {
+  margin-left: 0;
+}
+
 .contact-icons {
   color: white;
 }
@@ -173,7 +177,10 @@
   }
 
   .footer__combos-about-links-div {
-    display: flex;
-    justify-content: space-around;
+    // display: flex;
+    // justify-content: space-around;
+  }
+  .footer__about {
+    margin-right: 2.4rem;
   }
 }

@@ -9,7 +9,7 @@ const Menu = () => (
       <div className="menu__container">
         <MenuGroup
           groupName="Shawarma"
-          heroImgSource="/images/shawarma.png"
+          heroImgSource="/images/new/shawarma-500-high.png"
           items={[
             {
               name: "Shawarma Roll",
@@ -40,7 +40,7 @@ const Menu = () => (
         />
         <MenuGroup
           groupName="Fried Chicken"
-          heroImgSource="/images/fried-chicken.png"
+          heroImgSource="/images/new/fried-chicken-500-high.png"
           items={[
             {
               name: "1 PC",
@@ -71,7 +71,7 @@ const Menu = () => (
         />
         <MenuGroup
           groupName="Rolls"
-          heroImgSource="/images/paneer-roll.png"
+          heroImgSource="/images/new/paneer-roll-500-high.png"
           items={[
             {
               name: "Paneer Roll",
@@ -102,7 +102,7 @@ const Menu = () => (
         />
         <MenuGroup
           groupName="Sandwiches"
-          heroImgSource="/images/sandwich.png"
+          heroImgSource="/images/new/sandwich-500-high.png"
           items={[
             {
               name: "Choco Choo Sandwich",
@@ -133,7 +133,7 @@ const Menu = () => (
         />
         <MenuGroup
           groupName="Burgers"
-          heroImgSource="/images/burger.png"
+          heroImgSource="/images/new/burger-500-high.png"
           items={[
             {
               name: "Veg. Mini Burger",
@@ -159,7 +159,7 @@ const Menu = () => (
         />
         <MenuGroup
           groupName="Grill Chicken"
-          heroImgSource="/images/grill-chicken.png"
+          heroImgSource="/images/new/grill-chicken-500-high.png"
           items={[
             {
               name: "Quarter",
@@ -180,7 +180,7 @@ const Menu = () => (
         />
         <MenuGroup
           groupName="Milkshakes"
-          heroImgSource="/images/milkshake.png"
+          heroImgSource="/images/new/milkshake-500-high.png"
           items={[
             {
               name: "Oreo Milkshake",
@@ -211,7 +211,7 @@ const Menu = () => (
         />
         <MenuGroup
           groupName="Mojitos"
-          heroImgSource="/images/mojito.png"
+          heroImgSource="/images/new/mojito-500-high.png"
           items={[
             {
               name: "Lemon Mint",
@@ -232,7 +232,7 @@ const Menu = () => (
         />
         <MenuGroup
           groupName="Beverages"
-          heroImgSource="/images/beverages.png"
+          heroImgSource="/images/new/beverages-500-high.png"
           items={[
             {
               name: "Pepsi / Coke",
