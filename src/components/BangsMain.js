@@ -1,17 +1,11 @@
 import React from "react";
-import ContentLoader from "react-content-loader";
 
 import Hero from "./Hero";
 import Combos from "./combos/Combos";
 import Menu from "./menu/Menu";
 import Footer from "./footer/Footer";
 
-import ThreeDots from "./ThreeDots";
-
 export default class BangsMain extends React.Component {
-  MyLoader = () => <ContentLoader />;
-  MyThreeDots = () => <ThreeDots />;
-
   scrollToTop = () => {
     window.scrollTo({
       top: 0,
@@ -22,8 +16,6 @@ export default class BangsMain extends React.Component {
   render() {
     return (
       <div>
-        {this.MyLoader}
-        {this.MyThreeDots}
         <Hero />
         <Combos />
         <Menu />
