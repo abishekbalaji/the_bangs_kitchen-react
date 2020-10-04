@@ -236,12 +236,12 @@ const Menu = () => (
           items={[
             {
               name: "Pepsi / Coke",
-              price: 40,
+              price: "AT MRP",
               imgSource: "/images/menu-items/beverages.png",
             },
             {
               name: "Water Bottle 1 Litre",
-              price: 30,
+              price: "AT MRP",
               imgSource: "/images/menu-items/beverages.png",
             },
           ]}

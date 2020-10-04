@@ -26,7 +26,8 @@ export default class BangsMain extends React.Component {
           className="scrollToTopBtn"
           title="Go to top"
         >
-          <i className="fas fa-arrow-up"></i>
+          {/* <i className="fas fa-arrow-up"></i> */}
+          <span className="material-icons">arrow_upward</span>
         </button>
       </div>
     );
