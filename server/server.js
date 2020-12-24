@@ -13,9 +13,17 @@ app.use(express.static(publicPath));
 //     res.sendFile()
 // })
 
+app.get("/test", (req, res) => {
+  res.send({message: "hello"});
+});
+
 app.get("*", (req, res) => {
   res.sendFile(path.join(publicPath, "index.html"));
 });
+
+// app.post("/login", (req, res) => {
+//   console.log(req);
+// });
 
 app.listen(port, () => {
   console.log("Server is running at port 3000");
